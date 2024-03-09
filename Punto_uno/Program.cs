@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Punto_uno
 {
@@ -17,6 +18,38 @@ namespace Punto_uno
 
             double sueldoBase = 10000000
             double objetivoVentas = 10000000
+
+                // Definir las ventas del vendedor
+        double[] ventas = { 500000, 300000, 400000 };
+
+            // Calcular las comisiones por cada venta
+            var comisiones = ventas.Select(venta => venta * 0.10);
+
+
+            double totalComisiones = 0;
+            foreach (var comision in comisiones)
+            {
+                totalComisiones += comision;
+
+                double totalMes = sueldoBase + totalComisiones;
+
+                bool alcanzoObjetivo = false;
+                double totalVentas = 0;
+                foreach (var venta in ventas)
+
+                {
+
+                    totalVentas += venta;
+
+                }
+
+
+                if ( totalVentas >= objetivoVentas)
+                {
+                    alcanzoObjetivo = true; 
+
+                }
+            }
 
 
             Console.WriteLine("Hello World!");
