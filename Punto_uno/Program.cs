@@ -45,6 +45,8 @@ public class Program
         Console.WriteLine($"El total de comisiones por las ventas es: {totalComisiones}");
         Console.WriteLine($"El total recibido en el mes es: {totalMes}");
         Console.WriteLine($"La venta que generó la mayor comisión fue de: {ventaMayorComision}");
-        Console.WriteLine($"El promedio de las comisiones por venta es: {promedioComisiones} ");
+        Console.WriteLine($"El promedio de las comisiones por venta es: {promedioComisiones}");
 
+    }
+}
 
