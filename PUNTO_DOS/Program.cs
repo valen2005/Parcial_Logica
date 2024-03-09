@@ -24,5 +24,10 @@ public class Program
 
         // Calcular la hora en que el segundo tren alcanza al primer tren
         double horaAlcance = 11 + tiempoAlcance;
+
+        // Mostrar la hora en pantalla
+        Console.WriteLine($"El segundo tren alcanzará al primer tren a las {horaAlcance.ToString("0.00")} horas.");
     }
+}
+    
 
