@@ -1,16 +1,12 @@
 ﻿using System;
 
-public class Program
+class Program
 {
-    public static void Main()
+    static void Main()
     {
         // Definir la velocidad de cada tren en km/h
         int velocidadTren1 = 80;
         int velocidadTren2 = 100;
-
-        // Definir el tiempo inicial de cada tren en horas
-        double tiempoTren1 = 0;
-        double tiempoTren2 = 1;
 
         // Definir el tiempo inicial de cada tren en horas
         double tiempoTren1 = 0; // El primer tren sale a las 10:00 AM
@@ -29,5 +25,7 @@ public class Program
         Console.WriteLine($"El segundo tren alcanzará al primer tren a las {horaAlcance.ToString("0.00")} horas.");
     }
 }
-    
+
+
+
 
