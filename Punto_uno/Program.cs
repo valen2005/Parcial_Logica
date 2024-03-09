@@ -39,7 +39,12 @@ public class Program
         else
         {
             Console.WriteLine("El vendedor no ha superado el objetivo del mes y no ha ganado el beneficio extra.");
-        }
 
+        }
+        // Mostrar los resultados en pantalla
+        Console.WriteLine($"El total de comisiones por las ventas es: {totalComisiones}");
+        Console.WriteLine($"El total recibido en el mes es: {totalMes}");
+        Console.WriteLine($"La venta que generó la mayor comisión fue de: {ventaMayorComision}");
+        Console.WriteLine($"El promedio de las comisiones por venta es: {promedioComisiones} ");
 
 
